@@ -1,0 +1,62 @@
+Reset and base styles * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #97e3d5, #555f8c);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Heading */
+h2 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+/* Container for input and button */
+div {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Input box */
+#city-input {
+    padding: 10px 15px;
+    width: 250px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+/* Button */
+#search-button {
+    padding: 10px 20px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#search-button:hover {
+    background-color: #357ABD;
+}
+
+#city-input:hover {
+    border: 1px solid #000000;
+}
